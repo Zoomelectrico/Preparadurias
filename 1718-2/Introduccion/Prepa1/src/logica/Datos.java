@@ -5,7 +5,7 @@ class Datos {
 	
 	// Numerico
 	byte a = 0;
-	shot b = 0;
+	short b = 0;
 	int c = 0;
 	long d = 0;
 	float e = 0.0;
@@ -25,7 +25,7 @@ class Datos {
 
 	//Arreglos (Vectores)
 	int[] vector;
-	vector = new vector[10] // Si, los vectores también son objetos
+	vector = new vector[10]; // Si, los vectores también son objetos
 	int[][] matriz = new int[10][10];
 	
 	// Operadore Aritmeticos
@@ -57,13 +57,12 @@ class Datos {
 	// Operador de Tipos (Objetos)
 	// typeof
 	
-
 	// Estructuras de control de Flujo
 	boolean bool = true;
 
 	if (bool) {
 
-	} else if (!bool) { // Negacion
+	} else if(!bool) { // Negacion
 
 	} else {
 
@@ -86,7 +85,6 @@ class Datos {
 	}
 
 	// Estructuras de Repetición
-	
 	while(bool) {
 		// Code
 	}
