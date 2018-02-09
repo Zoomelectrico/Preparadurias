@@ -1,0 +1,9 @@
+# compiled output
+/dist
+/test
+build.xml
+manifest.mf
+
+# IDEs and editors
+/nbproject
+
